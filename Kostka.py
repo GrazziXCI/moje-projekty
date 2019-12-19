@@ -5,7 +5,7 @@ import random
 
 n = int(input('Ile ścianek ma kość? '))
 
-kostka = random.randrange(1, n)
+kostka = random.randrange(1, n+1)
 
 def wizualizacja(kostka:int):
     if kostka > 9:
